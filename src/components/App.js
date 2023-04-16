@@ -15,7 +15,7 @@ export default function App() {
                 </form>
             </div>
             <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-            <input type="checkbox" id="switch" />
+            <input type="checkbox" id="switch" onChange={func} />
             <label for="switch" className="label">
                 Toggle
             </label>
